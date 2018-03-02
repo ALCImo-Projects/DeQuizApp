@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.dequizapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Category" />
+        <activity android:name=".Activity1" />
+        <activity android:name=".Activity2" />
+        <activity android:name=".Activity3" />
+        <activity android:name=".Activity4" />
+        <activity android:name=".Activity5" />
+        <activity android:name=".Activity6" />
+        <activity android:name=".Activity7" />
+        <activity android:name=".Activity8" />
+        <activity android:name=".Activity9" />
+        <activity android:name=".Activity10" />
+        <activity android:name=".Activity11" />
+        <activity android:name=".Activity12" />
+        <activity android:name=".Activity13" />
+        <activity android:name=".Activity14" />
+        <activity android:name=".Submit" />
+        <activity android:name=".Activity15" />
+        <activity android:name=".Activity16" />
+        <activity android:name=".Activity17" />
+        <activity android:name=".Activity18" />
+        <activity android:name=".Activity19" />
+        <activity android:name=".Activity20"></activity>
+    </application>
+
+</manifest>

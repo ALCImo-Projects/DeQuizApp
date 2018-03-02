@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF59D"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF59D"
+    tools:context="com.example.android.dequizapp.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/nameid"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:text="@string/welcome"
+        android:textSize="@dimen/top_text"
+        android:textColor="#E65"
+        android:paddingLeft="80dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/editField"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/enter_your_name_here"
+        android:paddingLeft="100dp"
+        android:paddingStart="100dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FB8C00"
+        android:textColorHint="#FB8C00"
+        />
+
+
+
+    <ImageView
+
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/upload"
+        />
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Upload picture"
+        android:layout_marginTop="20dp"
+        android:background="#FF9100"
+
+        />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/start"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FF9100"
+        />
+
+</LinearLayout>
+</ScrollView>
